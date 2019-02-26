@@ -18,3 +18,5 @@ Route::get('/', function () {
 Route::get('/tests', function() {
     return 'soso';
 });
+
+Route::resource('departments', 'DepartmentController');
