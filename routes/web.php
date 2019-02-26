@@ -15,4 +15,6 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/tests', 'TestController@index')->name('tests.index');
+Route::get('/tests', function() {
+    return 'soso';
+});
