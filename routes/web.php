@@ -20,3 +20,8 @@ Route::get('/tests', function() {
 });
 
 Route::resource('departments', 'DepartmentController');
+
+Route::get('/check', function() {
+    return 'Hello world';
+})->name('mezo');
+
